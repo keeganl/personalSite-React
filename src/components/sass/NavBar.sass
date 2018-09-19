@@ -1,0 +1,139 @@
+@import _responsive 
+
+nav
+  ul  
+    padding-inline-start: 0
+    
+    display: flex
+    justify-content: center
+    align-items: center
+    flex-flow: row nowrap
+    +respond-to(ipad)
+        justify-content: center
+        align-items: center
+        flex-flow: column nowrap
+    +respond-to(inbetween)
+        justify-content: center
+        align-items: center
+        flex-flow: column nowrap
+    +respond-to(iphone)
+        justify-content: center
+        align-items: center
+        flex-flow: column nowrap
+          
+    li 
+      padding: 1em
+      font-family: 'Comfortaa', serif
+      list-style: none
+      margin: 2em
+    #logo 
+      z-index: 1
+      +respond-to(ipad)
+        position: relative
+        left: 1em
+      +respond-to(inbetween)
+        position: relative
+        left: 1em
+      +respond-to(iphone)
+        position: relative
+        padding: 1em
+        left: 0.25em
+    #h 
+      border-bottom: 4px solid #29EDBC
+      +respond-to(ipad)
+        width: 90%
+        margin: 0
+        padding: 2em
+      +respond-to(inbetween)
+        width: 90%
+        margin: 0
+        padding: 2em
+      +respond-to(iphone)
+        width: 80%
+        margin: 0
+        padding: 2em
+      &:hover
+        box-shadow: 3px 3px 5px #1DBE95
+        background-color: #29EDBC
+        transition: 0.5s
+        border-radius: 5px 
+        a 
+          color: white
+    #p
+      // padding: 5px
+      border-bottom: 4px solid #FF8360
+      +respond-to(ipad)
+        width: 90%
+        margin: 0
+        padding: 2em
+      +respond-to(inbetween)
+        width: 90%
+        margin: 0
+        padding: 2em
+      +respond-to(iphone)
+        width: 80%
+        margin: 0
+        padding: 2em
+      &:hover
+        box-shadow: 3px 3px 5px #E57454
+        background-color: #FF8360
+        transition: 0.5s
+        border-radius: 5px 
+        a 
+          color: white
+    #a 
+      // padding: 5px
+      border-bottom: 4px solid #A40E4C
+      +respond-to(ipad)
+        width: 90%
+        margin: 0
+        padding: 2em
+      +respond-to(inbetween)
+        width: 90%
+        margin: 0
+        padding: 2em
+      +respond-to(iphone)
+        width: 80%
+        margin: 0
+        padding: 2em
+      &:hover
+        box-shadow: 3px 3px 5px #7E0A3A
+        background-color: #A40E4C
+        transition: 0.5s
+        border-radius: 5px 
+        a 
+          color: white
+    #c 
+      // padding: 5px
+      border-bottom: 4px solid #0BCE6B
+      +respond-to(ipad)
+        width: 90%
+        margin: 0
+        padding: 2em
+      +respond-to(inbetween)
+        width: 90%
+        margin: 0
+        padding: 2em
+      +respond-to(iphone)
+        width: 80%
+        margin: 0
+        padding: 2em
+      &:hover
+        box-shadow: 3px 3px 5px #09B15C
+        background-color: #0BCE6B
+        transition: 0.5s
+        border-radius: 5px 
+        a 
+          color: white
+    a 
+      color: black
+      text-decoration: none
+      +respond-to(ipad)
+        padding: 1em
+      +respond-to(inbetween)
+        padding: 1em
+      +respond-to(iphone)
+        padding: 1em
+
+
+

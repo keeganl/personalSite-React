@@ -1,0 +1,283 @@
+nav ul {
+  -webkit-padding-start: 0;
+          padding-inline-start: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  nav ul {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+  nav ul {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  nav ul {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+  }
+}
+
+nav ul li {
+  padding: 1em;
+  font-family: 'Comfortaa', serif;
+  list-style: none;
+  margin: 2em;
+}
+
+nav ul #logo {
+  z-index: 1;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  nav ul #logo {
+    position: relative;
+    left: 1em;
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+  nav ul #logo {
+    position: relative;
+    left: 1em;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  nav ul #logo {
+    position: relative;
+    padding: 1em;
+    left: 0.25em;
+  }
+}
+
+nav ul #h {
+  border-bottom: 4px solid #29EDBC;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  nav ul #h {
+    width: 90%;
+    margin: 0;
+    padding: 2em;
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+  nav ul #h {
+    width: 90%;
+    margin: 0;
+    padding: 2em;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  nav ul #h {
+    width: 80%;
+    margin: 0;
+    padding: 2em;
+  }
+}
+
+nav ul #h:hover {
+  -webkit-box-shadow: 3px 3px 5px #1DBE95;
+          box-shadow: 3px 3px 5px #1DBE95;
+  background-color: #29EDBC;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  border-radius: 5px;
+}
+
+nav ul #h:hover a {
+  color: white;
+}
+
+nav ul #p {
+  border-bottom: 4px solid #FF8360;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  nav ul #p {
+    width: 90%;
+    margin: 0;
+    padding: 2em;
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+  nav ul #p {
+    width: 90%;
+    margin: 0;
+    padding: 2em;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  nav ul #p {
+    width: 80%;
+    margin: 0;
+    padding: 2em;
+  }
+}
+
+nav ul #p:hover {
+  -webkit-box-shadow: 3px 3px 5px #E57454;
+          box-shadow: 3px 3px 5px #E57454;
+  background-color: #FF8360;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  border-radius: 5px;
+}
+
+nav ul #p:hover a {
+  color: white;
+}
+
+nav ul #a {
+  border-bottom: 4px solid #A40E4C;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  nav ul #a {
+    width: 90%;
+    margin: 0;
+    padding: 2em;
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+  nav ul #a {
+    width: 90%;
+    margin: 0;
+    padding: 2em;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  nav ul #a {
+    width: 80%;
+    margin: 0;
+    padding: 2em;
+  }
+}
+
+nav ul #a:hover {
+  -webkit-box-shadow: 3px 3px 5px #7E0A3A;
+          box-shadow: 3px 3px 5px #7E0A3A;
+  background-color: #A40E4C;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  border-radius: 5px;
+}
+
+nav ul #a:hover a {
+  color: white;
+}
+
+nav ul #c {
+  border-bottom: 4px solid #0BCE6B;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  nav ul #c {
+    width: 90%;
+    margin: 0;
+    padding: 2em;
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+  nav ul #c {
+    width: 90%;
+    margin: 0;
+    padding: 2em;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  nav ul #c {
+    width: 80%;
+    margin: 0;
+    padding: 2em;
+  }
+}
+
+nav ul #c:hover {
+  -webkit-box-shadow: 3px 3px 5px #09B15C;
+          box-shadow: 3px 3px 5px #09B15C;
+  background-color: #0BCE6B;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  border-radius: 5px;
+}
+
+nav ul #c:hover a {
+  color: white;
+}
+
+nav ul a {
+  color: black;
+  text-decoration: none;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  nav ul a {
+    padding: 1em;
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+  nav ul a {
+    padding: 1em;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  nav ul a {
+    padding: 1em;
+  }
+}
+/*# sourceMappingURL=NavBar.css.map */

@@ -1,0 +1,46 @@
+.blurb {
+  padding: 1em;
+}
+
+.blurb h1 {
+  padding: 15px;
+  font-family: 'Comfortaa', cursive;
+  text-align: center;
+}
+
+.blurb .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  margin-left: 15vh;
+}
+
+.blurb .title p {
+  z-index: 5;
+  font-family: 'Comfortaa', cursive;
+  text-align: center;
+  margin-top: -15px;
+  padding-right: 15px;
+}
+
+.blurb .title #job {
+  background-color: black;
+  padding: 1em;
+  color: white;
+  border-radius: 5px;
+}
+
+.blurb .title #job p {
+  float: right;
+}
+/*# sourceMappingURL=Blurb.css.map */

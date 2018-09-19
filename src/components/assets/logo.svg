@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="601px" height="75px" viewBox="0 0 601 75" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>Personal Site Logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-102.000000, -49.000000)" fill="#141414">
+            <g id="Personal-Site-Logo" transform="translate(95.000000, 26.485169)">
+                <text id="Keegan-Lawley" font-family="Comfortaa-Bold, Comfortaa" font-size="72" font-weight="bold" letter-spacing="5.142857">
+                    <tspan x="0.7274295" y="79.158">Keegan Lawley</tspan>
+                </text>
+                <path d="M222.997136,79.4365048 L241.022153,79.2239327 L240.370906,74.0600899 C240.118818,73.1191392 239.023406,72.6486638 237.084671,72.6486638 C235.145937,72.6486638 232.187394,73.1191392 228.209043,74.0600899 L222.997136,79.4365048 Z" id="Path" fill-rule="nonzero"></path>
+                <path d="M408.997136,79.4365048 L427.022153,79.2239327 L426.370906,74.0600899 C426.118818,73.1191392 425.023406,72.6486638 423.084671,72.6486638 C421.145937,72.6486638 418.187394,73.1191392 414.209043,74.0600899 L408.997136,79.4365048 Z" id="Path" fill-rule="nonzero"></path>
+                <path d="M263.901565,39.6742617 L278.197197,39.6131711 L280.093296,39.5657043 L269.479102,44.8730221 C268.318319,45.6783642 267.305919,45.6783642 266.4419,44.8730221 C265.577882,44.06768 264.731103,42.3347599 263.901565,39.6742617 Z" id="Path-2" fill-rule="nonzero" transform="translate(271.997430, 42.521367) rotate(-1.000000) translate(-271.997430, -42.521367) "></path>
+            </g>
+        </g>
+    </g>
+</svg>
